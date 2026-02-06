@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #050505; /* Noir profond comme tes images */
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Code', 'Courier New', monospace; /* Style terminal */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar personnalisée style néon */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #00ff41;
+  border-radius: 10px;
+}
