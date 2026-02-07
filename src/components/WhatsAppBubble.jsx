@@ -14,9 +14,9 @@ const WhatsAppBubble = () => {
       <span className="absolute right-20 bg-cardBg border border-gray-800 text-neonGreen text-xs font-mono px-3 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap hidden md:block">
         <span className="text-white">$</span> Joindre Frejus via whatsapp --direct
       </span>
-<span className="absolute right-16 bg-white text-black text-xs font-bold px-3 py-1 rounded shadow-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+      {/* <span className="absolute right-16 bg-white text-black text-xs font-bold px-3 py-1 rounded shadow-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
         Besoin d'aide ? Discutons !
-      </span>
+      </span> */}
       {/* Icône WhatsApp */}
       <MessageCircle size={28} fill="currentColor" strokeWidth={1} />
       

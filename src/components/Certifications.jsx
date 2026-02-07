@@ -7,25 +7,25 @@ const Certifications = () => {
       title: "Lettre de Félicitation",
       issuer: "Rectorat de l'UAC",
       desc: "Contribution à la conception de la plateforme SIG de l'UAC.",
-      img: "/certificats/c5.jpg" // Assure-toi de mettre les images dans le dossier public
+      img: "/certificats/c5.png" // Assure-toi de mettre les images dans le dossier public
     },
     {
       title: "Attestation de Participation",
       issuer: "Fondation Mastercard",
       desc: "Atelier d'élaboration de la feuille de route E-learning.",
-      img: "/c4.jpg"
+      img: "/certificats/c4.png"
     },
     {
       title: "Étudier de façon optimale",
       issuer: "Baobab Platform",
       desc: "Certification de réussite - Février 2024.",
-      img: "/c2.jpg"
+      img: "/certificats/c2.png"
     },
     {
       title: "Apprendre à apprendre",
       issuer: "Baobab Platform",
       desc: "Certification de réussite - Novembre 2023.",
-      img: "/c1.jpg"
+      img: "/certificats/c1.png"
     }
   ];
 
