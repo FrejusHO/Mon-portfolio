@@ -9,10 +9,11 @@ const Showcase = () => {
 
   return (
     <section id="domaines" className="py-20 px-6 md:px-20 bg-darkBg font-mono text-white">
-      <div className="max-w-6xl mx-auto"></div>
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center md:text-left">
           <span className="text-neonGreen">$</span> Mes domaines 
         </h2>
+        </div>
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {screenshots.map((item, index) => (
