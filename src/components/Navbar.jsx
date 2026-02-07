@@ -6,11 +6,13 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'About me', href: '#about' },
+    { name: 'Mes domaines', href: '#domaines' },
     { name: 'Stack', href: '#stack' },
+    { name: 'Certificats', href: '#certificats' },
     { name: 'Projets', href: '#projets' },
     { name: 'Références', href: '#references' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Mes domaines', href: '#domaines' },
+    
 
   ];
 
