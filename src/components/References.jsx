@@ -5,16 +5,23 @@ const References = () => {
   const references = [
     {
       name: "YADOULETON C.Césaire",
-      role: "Chef Scolarité ENEAM",
+      role: "Chef Scolarité ENEAM-UAC",
       phone: "+229 01 95 84 59 84",
       email: "cesairecodjo@gmail.com"
     },
     {
-      name: "WOROU P. Guillermo",
-      role: "Chef du teams Sitatunga ", // J'ai ajusté le titre pour varier
-      phone: "+229 01 66 30 26 56", // À mettre à jour
-      email: "gperez@gmail.com" // À mettre à jour
+      name: "OYETOLA Victor",
+      role: "Chef SERVICE SPTIC-UAC ", 
+      phone: "+229 01 95 56 85 51", 
+      email: "victor.oyetola@uac.bj" 
+    },
+    {
+      name: "ZOHOU Pierre Jérôme",
+      role: "Informaticien IFRI-UAC", 
+      phone: "+229 01 97 38 49 92", 
+      email: "pzohou@gmail.com" 
     }
+    
   ];
 
   return (

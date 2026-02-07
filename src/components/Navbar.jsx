@@ -5,8 +5,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'About me', href: '#about' },
-    { name: 'Mes domaines', href: '#domaines' },
+    { name: 'Me', href: '#about' },
+    { name: 'Domaines', href: '#domaines' },
     { name: 'Stack', href: '#stack' },
     { name: 'Certificats', href: '#certificats' },
     { name: 'Projets', href: '#projets' },
@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="text-gray-400 hover:text-neonGreen transition-colors">
+            <a key={link.name} href={link.href} className="text-gray-400 hover:text-neonGreen transition-colors text-lg font-bold">
               {link.name}
             </a>
           ))}

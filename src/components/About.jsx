@@ -12,7 +12,7 @@ const About = () => {
             <img 
               src="/me.jpeg" // Place ta photo dans le dossier 'public' et nomme-la ainsi
               alt="Frejus N. HOUNGBENOU"
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500"
+              className="w-full h-full object-cover  hover:grayscale transition duration-500"
             />
           </div>
         </div>
@@ -26,7 +26,7 @@ const About = () => {
           <div className="space-y-4 text-gray-400 text-lg leading-relaxed">
             <p>
               Je suis <span className="text-white font-bold">HOUNGBENOU Nouwassè Frejus</span>, 
-              Développeur web passionné par la technologie blockchain et les crypto
+              Développeur web full-stack passionné par la technologie blockchain et les crypto
             monnaies, je développe des solutions digitales sécurisées et performantes,
             des enjeux complexes en applications robustes.
             </p>
