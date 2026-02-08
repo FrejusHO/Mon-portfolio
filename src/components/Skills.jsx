@@ -4,7 +4,7 @@ const Skills = () => {
   const stack = {
     "Langages": ["C", "PHP", "Python", "HTML5", "CSS3", "SQL", "Javascript"],
     "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Express js"],
-    "Architecture": ["Analyse & Modélisation de projets informatiques"],
+    "Architecture": ["Analyse technique",  "Modélisation de projets informatiques"],
     "Database": ["MySQL", "PostgreSQL"]
   };
 

@@ -3,21 +3,17 @@
 @tailwind utilities;
 
 :root {
-  background-color: #050505; /* Noir profond comme tes images */
-  color: #ffffff;
+  --neon-green: #00ff41; /* Couleur par défaut */
 }
 
-body {
-  margin: 0;
-  font-family: 'Fira Code', 'Courier New', monospace; /* Style terminal */
-  -webkit-font-smoothing: antialiased;
-}
-
-/* Scrollbar personnalisée style néon */
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-thumb {
-  background: #00ff41;
-  border-radius: 10px;
+@layer base {
+  .text-neonGreen {
+    color: var(--neon-green);
+  }
+  .bg-neonGreen {
+    background-color: var(--neon-green);
+  }
+  .border-neonGreen {
+    border-color: var(--neon-green);
+  }
 }

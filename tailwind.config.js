@@ -4,17 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBg: '#050505',
-        neonGreen: '#00ff41', // Le vert "Matrix/Terminal"
-        cardBg: '#111111',
+        neonGreen: "var(--neon-green)",
+        darkBg: "#000a12",
+        cardBg: "#00121a",
       },
-      animation: {
-        'pulse-fast': 'pulse 0.8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-      },
-      fontFamily: {
-        mono: ['Fira Code', 'monospace'],
-      }
     },
   },
   plugins: [],
-}
+};
