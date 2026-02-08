@@ -4,7 +4,7 @@ import { Briefcase, Calendar, MapPin, Terminal } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Développeur web backend",
+      title: "Développeur web backend (Stage-pro)",
       company: "SPTIC-UAC",
       location: "Abomey-Calavi, Bénin",
       period: "Avril 2023 - Aujourd'hui",
@@ -15,7 +15,7 @@ const Experience = () => {
       ]
     },
     {
-      title: "Développeur web (Stage d'immersion) ",
+      title: "Développeur web (Stage-Immersion) ",
       company: "Wootan-Group",
       location: "Cotonou, Bénin",
       period: "Août 2022 - Octobre 2022",
@@ -33,7 +33,7 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 flex items-center gap-4">
           <Terminal className="text-neonGreen" size={32} />
-          <span>Expériences Pro</span>
+          <span>Expériences</span>
         </h2>
 
         <div className="relative border-l-2 border-gray-800 ml-4">
