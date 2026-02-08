@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Développeur web backend (Stage-pro)",
       company: "SPTIC-UAC",
       location: "Abomey-Calavi, Bénin",
-      period: "Avril 2023 - Aujourd'hui",
+      period: "Avril 2023 à Présent",
       points: [
         "Participation à la mise en place de l'Espace Numérique de Travail (ENT) de l'UAC",
         "Développement effectif du module 'Espace Étudiant' de l'ENT",
@@ -18,7 +18,7 @@ const Experience = () => {
       title: "Développeur web (Stage-Immersion) ",
       company: "Wootan-Group",
       location: "Cotonou, Bénin",
-      period: "Août 2022 - Octobre 2022",
+      period: "Août - Octobre 2022",
       points: [
         "Développement du back-office d'une application de gestion d'entreprise"
       ]

@@ -110,7 +110,7 @@ const Navbar = () => {
             
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
-               <Github size={18} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
+               <MessageCircle size={18} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
                <Linkedin size={18} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
                <Mail size={18} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
             </div>
