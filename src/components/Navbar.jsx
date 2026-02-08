@@ -118,7 +118,7 @@ const Navbar = () => {
                 <img src="/me.jpeg" alt="Profil" className="w-full h-full object-cover" />
               </div>
             </div>
-            <h3 className="text-white font-black text-xl text-center leading-tight uppercase tracking-tighter">
+            <h3 className="text-white font-black text-xl text-center leading-tight  tracking-tighter">
               Frejus N. <br/> HOUNGBENOU
             </h3>
             <div className="flex gap-4 mt-4 mb-6">
@@ -134,7 +134,7 @@ const Navbar = () => {
           <div className="mb-8 px-2">
             <div className="flex items-center gap-2 mb-4 text-gray-400 uppercase text-[10px] font-black tracking-[0.2em]">
               <Settings size={12} className="text-neonGreen animate-spin-slow" /> 
-              Personnalisation
+              Choisir un thème
             </div>
             <div className="grid grid-cols-4 gap-2 mb-4">
               {colors.map((color) => (
@@ -146,9 +146,9 @@ const Navbar = () => {
                 />
               ))}
             </div>
-            <p className="text-[9px] text-gray-500 italic text-center uppercase tracking-widest">
+            {/* <p className="text-[9px] text-gray-500 italic text-center uppercase tracking-widest">
               Accent global du site
-            </p>
+            </p> */}
           </div>
 
           <hr className="border-gray-900 mb-6" />
