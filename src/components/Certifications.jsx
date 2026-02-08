@@ -15,18 +15,18 @@ const Certifications = () => {
       desc: "Atelier d'élaboration de la feuille de route E-learning.",
       img: "/certificats/c4.png"
     },
-    {
-      title: "Étudier de façon optimale",
-      issuer: "Baobab Platform",
-      desc: "Certification de réussite - Février 2024.",
-      img: "/certificats/c2.png"
-    },
-    {
-      title: "Apprendre à apprendre",
-      issuer: "Baobab Platform",
-      desc: "Certification de réussite - Novembre 2023.",
-      img: "/certificats/c1.png"
-    }
+    // {
+    //   title: "Étudier de façon optimale",
+    //   issuer: "Baobab Platform",
+    //   desc: "Certification de réussite - Février 2024.",
+    //   img: "/certificats/c2.png"
+    // },
+    // {
+    //   title: "Apprendre à apprendre",
+    //   issuer: "Baobab Platform",
+    //   desc: "Certification de réussite - Novembre 2023.",
+    //   img: "/certificats/c1.png"
+    // }
   ];
 
   return (
