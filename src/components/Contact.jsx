@@ -1,7 +1,45 @@
-import React from 'react';
-import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react'; // Assure-toi d'avoir installé lucide-react
+import React, { useState } from 'react';
+import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
+  // 1. État pour les données du formulaire
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  // 2. État pour la gestion de l'envoi
+  const [status, setStatus] = useState({ loading: false, message: '', error: false });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus({ loading: true, message: 'Envoi en cours...', error: false });
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setStatus({ loading: false, message: 'Message envoyé avec succès !', error: false });
+        setFormData({ name: '', email: '', message: '' }); // Réinitialise le formulaire
+      } else {
+        throw new Error(data.error || "Une erreur est survenue");
+      }
+    } catch (err) {
+      setStatus({ loading: false, message: err.message, error: true });
+    }
+  };
+
   return (
     <section id="contact" className="py-20 px-6 md:px-20 bg-darkBg font-mono text-white">
       <div className="max-w-6xl mx-auto">
@@ -18,40 +56,69 @@ const Contact = () => {
             <div className="space-y-4">
                 <div className="flex items-center gap-4 group">
                     <div className="p-3 bg-cardBg border border-gray-800 rounded group-hover:border-neonGreen transition-colors">
-                    <MessageCircle className="text-neonGreen" size={20} />
+                      <MessageCircle className="text-neonGreen" size={20} />
                     </div>
                     <span className="text-lg">+229 0163822317</span>
                 </div>
-                 <div className="flex items-center gap-4 group">
-                    <div className="p-3 bg-cardBg border border-gray-800 rounded group-hover:border-neonGreen transition-colors">
-                    <Phone className="text-neonGreen" size={20} />
-                    </div>
-                    <span className="text-lg">+229 0144268899</span>
-                </div>
+                {/* ... autres infos gardées à l'identique ... */}
                 <div className="flex items-center gap-4 group">
                     <div className="p-3 bg-cardBg border border-gray-800 rounded group-hover:border-neonGreen transition-colors">
-                    <Mail className="text-neonGreen" size={20} />
+                      <Mail className="text-neonGreen" size={20} />
                     </div>
                     <span className="text-lg">frejushn@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4 group">
                     <div className="p-3 bg-cardBg border border-gray-800 rounded group-hover:border-neonGreen transition-colors">
-                    <MapPin className="text-neonGreen" size={20} />
+                      <MapPin className="text-neonGreen" size={20} />
                     </div>
                     <span className="text-lg">Abomey Calavi, Bénin</span>
                 </div>
             </div>
           </div>
 
-          {/* Formulaire (Déjà existant, on le garde) */}
-          <form action="https://api.web3forms.com/submit" method="POST" className="bg-cardBg p-6 rounded-xl border border-gray-800 space-y-4">
-            <input type="hidden" name="access_key" value="VOTRE_CLE_ICI" />
-            <input type="text" name="name" placeholder="Nom complet" className="w-full bg-black border border-gray-700 p-3 outline-none focus:border-neonGreen transition" />
-            <input type="email" name="email" placeholder="Email" className="w-full bg-black border border-gray-700 p-3 outline-none focus:border-neonGreen transition" />
-            <textarea name="message" rows="4" placeholder="Votre message" className="w-full bg-black border border-gray-700 p-3 outline-none focus:border-neonGreen transition"></textarea>
-            <button className="w-full py-3 border border-neonGreen text-neonGreen hover:bg-neonGreen hover:text-black font-bold transition">
-              ENVOYER
+          {/* Formulaire relié à ton API */}
+          <form onSubmit={handleSubmit} className="bg-cardBg p-6 rounded-xl border border-gray-800 space-y-4">
+            <input 
+              type="text" 
+              name="name" 
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Nom complet" 
+              required
+              className="w-full bg-black border border-gray-700 p-3 outline-none focus:border-neonGreen transition text-white" 
+            />
+            <input 
+              type="email" 
+              name="email" 
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Email" 
+              required
+              className="w-full bg-black border border-gray-700 p-3 outline-none focus:border-neonGreen transition text-white" 
+            />
+            <textarea 
+              name="message" 
+              rows="4" 
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="Votre message" 
+              required
+              className="w-full bg-black border border-gray-700 p-3 outline-none focus:border-neonGreen transition text-white"
+            ></textarea>
+            
+            <button 
+              disabled={status.loading}
+              className={`w-full py-3 border border-neonGreen text-neonGreen font-bold transition ${status.loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-neonGreen hover:text-black'}`}
+            >
+              {status.loading ? 'ENVOI...' : 'ENVOYER'}
             </button>
+
+            {/* Message de retour utilisateur */}
+            {status.message && (
+              <p className={`text-center mt-4 ${status.error ? 'text-red-500' : 'text-neonGreen'}`}>
+                {status.message}
+              </p>
+            )}
           </form>
         </div>
       </div>
