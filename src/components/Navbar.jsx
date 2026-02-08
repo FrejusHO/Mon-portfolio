@@ -77,14 +77,14 @@ const Navbar = () => {
               className="flex items-center gap-2 p-2 rounded-lg border border-gray-800 bg-gray-900/50 text-gray-400 hover:text-neonGreen transition-all shadow-lg"
               title="Personnaliser la couleur"
             >
-              <Palette size={18} />
+              <Palette size={20} />
               <span className="text-[10px] font-black uppercase tracking-tighter">Thème</span>
             </button>
 
             {showPicker && (
               <div className="absolute right-0 mt-3 p-4 bg-[#0a0a0a] border border-gray-700 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.5)] w-56 animate-in fade-in zoom-in duration-200">
                 <div className="flex items-center gap-2 mb-3 text-gray-500 text-[10px] font-black uppercase tracking-widest">
-                  <Settings size={10} /> Accent Global
+                  <Settings size={10} /> Choisis un thème
                 </div>
                 <div className="grid grid-cols-4 gap-2">
                   {colors.map((color) => (
