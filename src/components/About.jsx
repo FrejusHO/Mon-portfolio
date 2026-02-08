@@ -186,7 +186,7 @@ const About = () => {
 
         {/* Nom & Titre */}
         <div className="space-y-2 mb-6">
-          <h2 className="text-3xl md:text-5xl font-black text-white tracking-tighter">
+          <h2 className="text-3xl md:text-3xl font-black text-white tracking-tighter">
             Frejus <span className="text-neonGreen">N.</span> HOUNGBENOU
           </h2>
           <div className="flex items-center justify-center gap-2">

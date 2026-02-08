@@ -79,7 +79,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-darkBg/90 backdrop-blur-md border-b border-gray-800 font-mono">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="text-white text-lg font-bold">
-          Frejus <span className="text-neonGreen">N.</span>
+          Frejus <span className="text-neonGreen">N.</span> HOUNGBENOU
         </div>
 
         {/* Desktop Menu */}

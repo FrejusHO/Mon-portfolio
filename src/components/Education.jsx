@@ -52,7 +52,7 @@ const Education = () => {
 
               <div className="pb-10">
                 <span className="text-neonGreen text-sm font-bold tracking-widest">{study.period}</span>
-                <h3 className="text-xl font-bold mt-1 mb-2 uppercase tracking-tighter">{study.degree}</h3>
+                <h3 className="text-xl font-bold mt-1 mb-2  tracking-tighter">{study.degree}</h3>
                 <p className="text-gray-400 mb-4">{study.school}, {study.location}</p>
                 
                 <div className="flex flex-col gap-2">
