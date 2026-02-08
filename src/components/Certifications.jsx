@@ -6,7 +6,7 @@ const Certifications = () => {
     {
       title: "Lettre de Félicitation",
       issuer: "Rectorat de l'UAC",
-      desc: "Contribution à la conception de la plateforme SIG pour les inscription en ligne à l'UAC.",
+      desc: "Contribution à la conception de la plateforme SIG de l'UAC.",
       img: "/certificats/c5.png" // Assure-toi de mettre les images dans le dossier public
     },
     {
