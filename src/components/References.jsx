@@ -25,7 +25,7 @@ const References = () => {
   ];
 
   return (
-    <section id='references' className="py-20 px-6 md:px-20 bg-darkBg font-mono">
+    <section id='references' className="py-20 px-6 md:px-20 bg-slate-900 font-mono">
       <div className="max-w-6xl mx-auto"> {/* Augmenté à 6xl pour plus d'espace horizontal */}
         <h2 className="text-2xl md:text-4xl font-bold text-white mb-10 text-center md:text-left">
           <span className="text-neonGreen">$</span> Références

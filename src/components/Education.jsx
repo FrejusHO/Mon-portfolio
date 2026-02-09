@@ -33,7 +33,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-20 px-6 md:px-20 bg-darkBg text-white font-mono">
+    <section id="education" className="py-20 px-6 md:px-20 bg-slate-900 text-white font-mono">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 flex items-center gap-4">
           <Terminal className="text-neonGreen" size={32} />

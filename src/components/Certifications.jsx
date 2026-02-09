@@ -30,9 +30,10 @@ const Certifications = () => {
   ];
 
   return (
-    <section id="certificats" className="py-20 px-6 md:px-20 bg-darkBg font-mono">
+    <section id="certificats" className="py-20 px-6 md:px-20 bg-slate-900 font-mono">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-12 text-center md:text-left">
+          
           <span className="text-neonGreen">$</span> Certificats
         </h2>
 
