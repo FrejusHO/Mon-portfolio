@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Menu, X, Linkedin,Zap, Wrench,Mail, MessageCircle, Home, User, Briefcase, FileCode, Award, Send, Settings, Palette } from 'lucide-react';
+import { Menu, X, Linkedin,Zap, Award, FileBadge, Wrench,Mail, MessageCircle, Home, User, Briefcase, FileCode, Send, Settings, Palette } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,19 +11,12 @@ const Navbar = () => {
     { name: 'Cyber Blue', value: '#00d4ff' },
     { name: 'Candy Orchid', value: '#f14eff' },
     { name: 'Soft Cyan', value: '#00fff2' },
-    // { name: 'Electric Indigo', value: '#6200ff' },
-    // { name: 'Deep Purple', value: '#9c27b0' },
-    // { name: 'Ruby Red', value: '#ff003c' },
-    // { name: 'Neon Orange', value: '#ff5722' },
-    // { name: 'Gold', value: '#ffcc00' },
-    // { name: 'Lemon Yellow', value: '#d4ff00' },
-    // { name: 'Hot Pink', value: '#e91e63' },
-    
-    // { name: 'Mint', value: '#00ff95' },
-    // { name: 'Sky Blue', value: '#03a9f4' },
-    // { name: 'Lavender', value: '#bd93f9' },
-    // { name: 'Pure White', value: '#ffffff' },
-    // { name: 'Crimson', value: '#dc143c' },
+    { name: 'Electric Indigo', value: '#6200ff' },
+    { name: 'Gold', value: '#ffcc00' },
+    { name: 'Mint', value: '#00ff95' },
+    { name: 'Sky Blue', value: '#03a9f4' },
+
+  
   ];
 
   const changeColor = (colorValue) => {
@@ -48,12 +41,13 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Accueil', href: '#home', icon: <Home size={20} /> },
+    // { name: 'Accueil', href: '#home', icon: <Home size={20} /> },
     { name: 'À propos', href: '#about', icon: <User size={20} /> },
     { name: 'Education', href: '#education', icon: <Award size={20} /> },
     { name: 'Expériences', href: '#experience', icon: <Briefcase size={20} /> },
     { name: 'Skills', href: '#stack', icon: <Wrench size={20} /> },
     { name: 'Projets', href: '#projets', icon: <FileCode size={20} /> },
+    { name: 'Certificats', href: '#certificats', icon: <FileBadge size={20} /> },
     { name: 'Contact', href: '#contact', icon: <Send size={20} /> },
   ];
 
