@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserCheck, Phone, Mail } from 'lucide-react';
+import { UserCheck, Phone, Mail, Terminal } from 'lucide-react';
 
 const References = () => {
   const references = [
@@ -27,8 +27,9 @@ const References = () => {
   return (
     <section id='references' className="py-20 px-6 md:px-20 bg-slate-900 font-mono">
       <div className="max-w-6xl mx-auto"> {/* Augmenté à 6xl pour plus d'espace horizontal */}
-        <h2 className="text-2xl md:text-4xl font-bold text-white mb-10 text-center md:text-left">
-          <span className="text-neonGreen">$</span> Références
+       <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+            <Terminal className="text-neonGreen" size={32} />
+            Références
         </h2>
 
         {/* Le conteneur Flex qui aligne les cartes */}

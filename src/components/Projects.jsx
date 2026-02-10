@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Terminal } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
@@ -24,9 +24,10 @@ const Projects = () => {
 
   return (
     <section id="projets" className="py-20 bg-darkBg font-mono">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
-           <span className="text-neonGreen">$</span> Projets
+      <div className="container mx-auto px-6 max-w-4xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+            <Terminal className="text-neonGreen" size={32} />
+            Projets
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">

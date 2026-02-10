@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, ExternalLink } from 'lucide-react';
+import { Award, ExternalLink, Terminal } from 'lucide-react';
 
 const Certifications = () => {
   const docs = [
@@ -44,11 +44,10 @@ const Certifications = () => {
   return (
     <section id="certificats" className="py-20 px-6 md:px-20 bg-slate-900 font-mono">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-12 text-center md:text-left">
-          
-          <span className="text-neonGreen">$</span> Certificats
+        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+            <Terminal className="text-neonGreen" size={32} />
+            Certificats
         </h2>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {docs.map((doc, index) => (
             <div key={index} className="bg-cardBg border border-gray-800 rounded-xl overflow-hidden group hover:border-neonGreen transition-all duration-300 shadow-lg">

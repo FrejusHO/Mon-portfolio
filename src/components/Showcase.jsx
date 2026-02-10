@@ -1,18 +1,19 @@
 import React from 'react';
-
+import { Terminal } from 'lucide-react';
 const Showcase = () => {
   const screenshots = [
     { title: "Développement Web", img: "/web-dev.jpg" },
     { title: "Développement Mobile", img: "/mobile-dev.jpg" },
-    { title: "Outils de Trading", img: "/trading-app.jpg" }
+    { title: "Trading des cryptos", img: "/trading-app.jpg" }
   ];
 
   return (
     <section id="domaines" className="py-20 px-6 md:px-20 bg-slate-900 font-mono text-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center md:text-left">
-          <span className="text-neonGreen">$</span> Mes domaines 
-        </h2>
+         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+            <Terminal className="text-neonGreen" size={32} />
+            My domain
+          </h2>
         </div>
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

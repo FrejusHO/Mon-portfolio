@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Terminal } from 'lucide-react';
 const Skills = () => {
   const stack = {
     "Langages": ["C", "PHP", "Python", "HTML5", "CSS3", "SQL", "Javascript"],
@@ -11,8 +11,9 @@ const Skills = () => {
   return (
     <section id="stack" className="py-20 px-6 md:px-20 bg-darkBg font-mono">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-12 text-center md:text-left">
-           <span className="text-neonGreen">$</span> Ma <span className="text-neonGreen">Stack</span> Technique
+        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+            <Terminal className="text-neonGreen" size={32} />
+            Ma <span className="text-neonGreen">Stack</span> Technique
         </h2>
 
         {/* Fenêtre IDE */}
@@ -41,7 +42,7 @@ const Skills = () => {
                   <span className="text-orange-300">"{category}"</span>: <span className="text-gray-400">[</span>
                   <div className="pl-6 flex flex-wrap gap-x-2">
                     {items.map((item, i) => (
-                      <span key={item} className="text-green-400">
+                      <span key={item} className="text-neonGreen">
                         "{item}"{i < items.length - 1 ? ',' : ''}
                       </span>
                     ))}
