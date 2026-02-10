@@ -9,15 +9,15 @@ const Projects = () => {
       highlight: true
     },
     {
-      title: "SmartBudget App",
-      description: "Orchestration financière et prévisions budgétaires automatisées.",
-      tags: ["Python", "Django", "Vue.js"],
+      title: "PsyClic App",
+      description: "Application de Gestion des patients dédiés aux psychologues",
+      tags: ["PostgreSQL", "React js", "Laravel"],
       highlight: false
     },
     {
       title: "E-commerce API",
       description: "Architecture microservices pour une plateforme de vente scalable.",
-      tags: ["MongoDB", "Express.js", "JWT"],
+      tags: ["Python", "Django", "Vue.js"],
       highlight: false
     }
   ];
