@@ -45,7 +45,7 @@ const Certifications = () => {
     <section id="certificats" className="py-20 px-6 md:px-20 bg-slate-900 font-mono">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
-            <Terminal className="text-neonGreen" size={32} />
+            <Terminal className="text-neonGreen text-4xl" size={32} />
             Certificats
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

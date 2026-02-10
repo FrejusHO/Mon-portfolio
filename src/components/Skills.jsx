@@ -13,7 +13,7 @@ const Skills = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen" size={32} />
-            Ma <span className="text-neonGreen">Stack</span> Technique
+            My <span className="text-neonGreen text-4xl">Stack</span> 
         </h2>
 
         {/* Fenêtre IDE */}
