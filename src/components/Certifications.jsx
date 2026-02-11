@@ -16,29 +16,17 @@ const Certifications = () => {
       img: "/certificats/c4.png"
     },
      {
-      title: "Lettre de Félicitation",
-      issuer: "Rectorat de l'UAC",
-      desc: "Contribution à la conception de la plateforme SIG de l'UAC.",
-      img: "/certificats/c5.png" // Assure-toi de mettre les images dans le dossier public
+      title: "Diplôme de Participation",
+      issuer: "The John Maxwell Team",
+      desc: "Événement de leadership pour les jeunes - Initiative Mondiale de la Jeunesse.",
+      img: "/certificats/c6.jpeg" // Assure-toi de mettre les images dans le dossier public
     },
      {
       title: "Attestation de Participation",
       issuer: "Fondation Mastercard",
       desc: "Atelier d'élaboration de la feuille de route E-learning.",
-      img: "/certificats/c4.png"
+      img: "/certificats/c5.png"
     },
-    // {
-    //   title: "Étudier de façon optimale",
-    //   issuer: "Baobab Platform",
-    //   desc: "Certification de réussite - Février 2024.",
-    //   img: "/certificats/c2.png"
-    // },
-    // {
-    //   title: "Apprendre à apprendre",
-    //   issuer: "Baobab Platform",
-    //   desc: "Certification de réussite - Novembre 2023.",
-    //   img: "/certificats/c1.png"
-    // }
   ];
 
   return (

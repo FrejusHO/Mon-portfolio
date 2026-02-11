@@ -191,7 +191,10 @@ const About = () => {
           </h2>
           <div className="flex items-center justify-center gap-2">
             <div className="h-[5px] w-8 bg-neonGreen"></div>
-            <span className="text-neonGreen  tracking-[0.3em] text-sm">Ingénieur Logiciel</span>
+            {/* <span className="text-neonGreen  tracking-[0.3em] text-sm">Ingénieur Logiciel</span> */}
+               <span className="animate-[typing_3.5s_steps(20)_infinite_alternate,blink_.7s_step-end_infinite] text-neonGreen overflow-hidden border-r-4 border-neonGreen whitespace-nowrap">
+                  Ingénieur Logiciel
+              </span>
             <div className="h-[5px] w-8 bg-neonGreen"></div>
           </div>
         </div>
