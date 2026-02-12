@@ -30,7 +30,9 @@ const About = () => {
         <div className="relative w-64 h-64 md:w-72 md:h-72 mb-10 group">
           {/* Cadre néon animé */}
           <div className="absolute inset-0 border-[4px] border-neonGreen rounded-tl-[60px] rounded-br-[60px] translate-x-3 translate-y-3 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500"></div>
-          
+           <div className="absolute inset-0 border-2 border-neonGreen/20 rounded-full animate-ping pointer-events-none"></div>
+            <div className="absolute inset-0 border-2 border-neonGreen/10 rounded-full animate-pulse delay-75 pointer-events-none"></div>
+            
           <div className="relative h-full w-full rounded-tl-[60px] rounded-br-[60px] overflow-hidden border-2 border-gray-800 bg-[#000d1a]">
             <img 
               src="/me.jpeg" 
