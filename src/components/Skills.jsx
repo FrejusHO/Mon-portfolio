@@ -6,7 +6,7 @@ const Skills = () => {
     "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Express js"],
     "Architecture": ["Analyses techniques",  "Modélisation de projets informatiques"],
     "Database": ["MySQL", "PostgreSQL"],
-    "Others" : ["Serigraphie général", "Cacheterie"]
+    "Others" : ["Serigraphie générale", "Cacheterie"]
   };
 
   return (
@@ -26,7 +26,7 @@ const Skills = () => {
               <div className="w-3 h-3 rounded-full bg-yellow-500/50"></div>
               <div className="w-3 h-3 rounded-full bg-green-500/50"></div>
             </div>
-            <span className="text-gray-500 text-xs italic">houngbenou_skills.json</span>
+            <span className="text-neonGreen text-xs italic">houngbenou_skills.json</span>
           </div>
 
           {/* Zone de code */}
