@@ -37,7 +37,7 @@ const Education = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 flex items-center gap-4">
           <Terminal className="text-neonGreen" size={32} />
-          <span className="text-neonGreen">ls</span> ./my_education
+         ./my_education
         </h2>
 
         <div className="grid grid-cols-1 gap-8">

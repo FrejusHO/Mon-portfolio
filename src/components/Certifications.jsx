@@ -40,7 +40,7 @@ const Certifications = () => {
           className="text-4xl md:text-5xl font-bold text-white text-center mb-16 flex items-center justify-center gap-4"
         >
           <Terminal className="text-neonGreen" size={32} />
-          <span className="text-neonGreen">ls</span> ./my_certificats
+          ./my_certificats
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

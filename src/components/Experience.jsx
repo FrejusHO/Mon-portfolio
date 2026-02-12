@@ -33,7 +33,7 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 flex items-center gap-4">
           <Terminal className="text-neonGreen" size={32} />
-           <span className="text-neonGreen">ls</span>./my_expériences
+          ./my_expériences
         </h2>
 
         <div className="relative border-l-2 border-gray-800 ml-4">

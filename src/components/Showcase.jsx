@@ -19,7 +19,7 @@ const Showcase = () => {
           className="text-4xl md:text-5xl font-bold text-white text-center mb-16 flex items-center justify-center gap-4"
         >
           <Terminal className="text-neonGreen" size={40} />
-          <span className="text-neonGreen">ls</span>./my_domains
+         ./my_domains
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

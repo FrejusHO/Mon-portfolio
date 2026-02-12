@@ -14,7 +14,7 @@ const Skills = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen" size={32} />
-             <span className="text-neonGreen">ls</span>./my_stacks
+            ./my_stacks
         </h2>
 
         {/* Fenêtre IDE */}
