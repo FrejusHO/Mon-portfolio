@@ -1,152 +1,8 @@
-// // import React from 'react';
 
-// // const About = () => {
-// //   return (
-// //     <section id="about" className="py-20 px-6 md:px-20 bg-darkBg font-mono">
-// //       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
-        
-// //         {/* Conteneur Image avec effet néon */}
-// //         <div className="relative group w-64 h-64 md:w-80 md:h-80 flex-shrink-0">
-// //           <div className="absolute -inset-1 bg-neonGreen rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-// //           <div className="relative bg-cardBg rounded-2xl overflow-hidden border border-gray-800 h-full w-full">
-// //             <img 
-// //               src="/me.jpeg" // Place ta photo dans le dossier 'public' et nomme-la ainsi
-// //               alt="Frejus N. HOUNGBENOU"
-// //               className="w-full h-full object-cover  hover:grayscale transition duration-500"
-// //             />
-// //           </div>
-// //         </div>
-
-// //         {/* Texte de présentation */}
-// //         <div className="flex-1 text-white">
-// //           <h2 className="text-3xl md:text-4xl font-bold mb-6 flex items-center gap-3">
-// //             {/* <span className="text-neonGreen">03.</span> À propos de moi */}
-// //           </h2>
-          
-// //           <div className="space-y-4 text-gray-400 text-lg leading-relaxed">
-// //             <p>
-// //               Je suis <span className="text-white font-bold">HOUNGBENOU Nouwassè Frejus</span>, 
-// //               Développeur web full-stack passionné par la technologie blockchain et les crypto
-// //             monnaies, je développe des solutions digitales sécurisées et performantes,
-// //             des enjeux complexes en applications robustes.
-// //             </p>
-// //             {/* <p>
-// //               Mon expertise s'étend de la <span className="text-neonGreen">modélisation numérique </span> 
-// //               à la mise en place d'architectures logicielles robustes et scalables. J'aime concevoir des 
-// //               systèmes qui sont non seulement performants, mais aussi maintenables et élégants.
-// //             </p> */}
-            
-// //             <div className="pt-6 flex gap-4">
-// //               {/* <button className="px-6 py-2 bg-transparent border border-neonGreen text-neonGreen hover:bg-neonGreen/10 transition rounded">
-// //                 Consultez mon CV
-// //               </button> */}
-
-// //             <a 
-// //                 href="/CV_Houngbenou_Frejus.pdf" 
-// //                 target="_blank" 
-// //                 // download="CV_Houngbenou_Frejus.pdf"
-// //                 rel="noopener noreferrer"
-// //                 className="px-6 py-3 border-2 border-neonGreen text-neonGreen font-bold hover:bg-neonGreen hover:text-black transition-all duration-300 rounded inline-block"
-// //                 >
-// //                  Consultez mon CV
-// //             </a>
-// //               <div className="flex items-center gap-4 ml-4 text-2xl">
-// //                 {/* Tu pourras ajouter des icônes ici plus tard */}
-// //                 {/* <span className="hover:text-neonGreen cursor-pointer">in</span>
-// //                 <span className="hover:text-neonGreen cursor-pointer">git</span> */}
-// //               </div>
-// //             </div>
-// //           </div>
-// //         </div>
-
-// //       </div>
-// //     </section>
-// //   );
-// // };
-
-// // export default About;
-
-// import React from 'react';
-// import { Github, Linkedin, Mail, MessageCircle, Facebook } from 'lucide-react';
-
-// const About = () => {
-//   return (
-//     <section id="about" className="py-20 px-6 md:px-20 bg-[#001122] font-mono text-center">
-//       <div className="max-w-4xl mx-auto flex flex-col items-center">
-        
-//         {/* Conteneur Image avec bordure arrondie spécifique (style image 4) */}
-//         <div className="relative w-64 h-64 md:w-72 md:h-72 mb-8">
-//           {/* Le cadre néon vert derrière l'image */}
-//           <div className="absolute inset-0 border-[6px] border-neonGreen rounded-tl-[50px] rounded-br-[50px] translate-x-3 translate-y-3"></div>
-          
-//           <div className="relative h-full w-full rounded-tl-[50px] rounded-br-[50px] overflow-hidden border-2 border-gray-800 bg-cardBg">
-            
-//             <img 
-//               src="/me.jpeg" 
-//               alt="Frejus N. HOUNGBENOU"
-//               // className="w-full h-full object-cover"
-//               className="w-full h-full object-cover  hover:grayscale transition duration-500"
-//             />
-//           </div>
-//         </div>
-
-//         {/* Nom en Vert Néon */}
-//         <h2 className="text-2xl md:text-3xl font-bold text-neonGreen mb-4 tracking-wide">
-//           Frejus N. HOUNGBENOU
-//         </h2>
-
-//         {/* Titre "Je suis..." avec barre de soulignement */}
-//         <div className="mb-8">
-//           {/* <h3 className="text-xl md:text-2xl text-white font-semibold">
-//             Je suis passionné par la technologie blockchain et les crypto monnaies
-//           </h3> */}
-//           <div className="w-24 h-1 bg-neonGreen mx-auto mt-2"></div>
-//         </div>
-
-//         {/* Texte de présentation centré */}
-//         <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-10">
-//           J'ai une forte passion pour la technologie blockchain et les crypto monnaies.
-//           Développeur full-stack, je transforme des enjeux complexes en applications robustes.
-//         </p>
-
-//         {/* Icônes Sociales Arrondies (Style Image 4) */}
-//         <div className="flex flex-wrap justify-center gap-6 mb-12">
-//           {[
-//             { icon: <Facebook />, link: "#" },
-//             { icon: <Mail />, link: "mailto:frejushn@gmail.com" },
-//             // { icon: <Github />, link: "#" },
-//             { icon: <MessageCircle />, link: "https://wa.me/2290163822317" },
-//             { icon: <Linkedin />, link: "#" },
-//           ].map((social, index) => (
-//             <a 
-//               key={index}
-//               href={social.link}
-//               className="p-4 bg-neonGreen text-black rounded-full hover:scale-110 hover:bg-white transition-all duration-300 shadow-[0_0_15px_rgba(0,255,65,0.4)]"
-//             >
-//               {React.cloneElement(social.icon, { size: 24 })}
-//             </a>
-//           ))}
-//         </div>
-
-//         {/* Bouton CV */}
-//         <a 
-//           href="/CV_Houngbenou_Frejus.pdf" 
-//           target="_blank" 
-//           rel="noopener noreferrer"
-//           className="px-8 py-3 border-2 border-neonGreen text-neonGreen font-bold hover:bg-neonGreen hover:text-black transition-all duration-300 rounded-full"
-//         >
-//           Consultez mon CV
-//         </a>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default About;
 
 import React from 'react';
 import { Github, Linkedin, Mail, MessageCircle, Facebook } from 'lucide-react';
-
+import { TypeAnimation } from 'react-type-animation';
 const About = () => {
   return (
     <section id="about" className="relative py-20 px-6 md:px-20 bg-[#000a12] font-mono overflow-hidden">
@@ -192,9 +48,23 @@ const About = () => {
           <div className="flex items-center justify-center gap-2">
             <div className="h-[5px] w-8 bg-neonGreen"></div>
             {/* <span className="text-neonGreen  tracking-[0.3em] text-sm">Ingénieur Logiciel</span> */}
-               <span className="animate-[typing_3.5s_steps(20)_infinite_alternate,blink_.7s_step-end_infinite] text-neonGreen overflow-hidden border-r-4 border-neonGreen whitespace-nowrap">
-                  Ingénieur Logiciel
+               <span className=" text-neonGreen overflow-hidden border-r-4 border-neonGreen whitespace-nowrap">
+                  {/* Ingénieur Logiciel */}
+                   <TypeAnimation
+                  sequence={[
+                    'Ingénieur Logiciel',
+                    2000,
+                    'Crypto trader',
+                    2000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                />
               </span>
+               <div className="h-20 mt-4 text-xl md:text-2xl font-mono text-gray-400">
+               
+          </div>
             <div className="h-[5px] w-8 bg-neonGreen"></div>
           </div>
         </div>
