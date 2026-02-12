@@ -6,7 +6,7 @@ const Skills = () => {
     "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Express js"],
     "Architecture": ["Analyses techniques",  "Modélisation de projets informatiques"],
     "Database": ["MySQL", "PostgreSQL"],
-    "Others" : ["Serigraphie", "Cacheterie"]
+    "Others" : ["Serigraphie général", "Cacheterie"]
   };
 
   return (
@@ -14,7 +14,7 @@ const Skills = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen" size={32} />
-            My <span className="text-neonGreen text-4xl">Stack</span> 
+             <span className="text-neonGreen">ls</span>./my_stacks
         </h2>
 
         {/* Fenêtre IDE */}

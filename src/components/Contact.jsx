@@ -45,7 +45,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto">
        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen text-4xl" size={32} />
-            Contact me
+            <span className="text-neonGreen">ls</span> ./my_contacts
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Infos Personnelles */}

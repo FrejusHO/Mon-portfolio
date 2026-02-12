@@ -27,7 +27,8 @@ const Projects = () => {
       <div className="container mx-auto px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen text-4xl" size={32} />
-            Projets
+             <span className="text-neonGreen">ls</span>./my_projets
+         
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
