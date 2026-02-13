@@ -35,7 +35,7 @@ function App() {
       
       {/* Footer simple */}
       <footer className="py-10 text-center text-gray-600 border-t border-gray-900 font-mono text-sm">
-        <p>© 2026 HOUNGBENOU Nouwassè Frejus | Tous drroits réservés</p>
+        <p>© 2026 HOUNGBENOU Nouwassè Frejus | Portfolio Professionnel</p>
       </footer>
       <WhatsAppBubble />
     </div>
