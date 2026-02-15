@@ -5,13 +5,13 @@ const Projects = () => {
     {
       title: "DataFlow CRM",
       description: "Gestion client optimisée avec analyse de données en temps réel.",
-      tags: ["PostgreSQL", "Node.js", "React"],
+      tags: ["Postgres", "Node.js", "React js"],
       highlight: true
     },
     {
       title: "PsyClic App",
       description: "Application de Gestion des patients dédiés aux psychologues",
-      tags: ["PostgreSQL", "React js", "Laravel"],
+      tags: ["Postgres", "React js", "Laravel"],
       highlight: false
     },
     {

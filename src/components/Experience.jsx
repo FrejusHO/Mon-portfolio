@@ -4,7 +4,7 @@ import { Briefcase, Calendar, MapPin, Terminal } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Développeur web backend (Stage-pro)",
+      title: "Développeur web backend ",
       company: "SPTIC-UAC",
       location: "Abomey-Calavi, Bénin",
       period: "Avril 2023 à Présent",
@@ -15,7 +15,7 @@ const Experience = () => {
       ]
     },
     {
-      title: "Développeur web (Stage-Immersion) ",
+      title: "Développeur web ",
       company: "Wootan-Group",
       location: "Cotonou, Bénin",
       period: "Août - Octobre 2022",
