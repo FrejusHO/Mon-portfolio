@@ -16,7 +16,7 @@ const Projects = () => {
     },
     {
       title: "SANpreneur",
-      description: "Plateforme intégrant une boîte à outils pour les entrepreneurs du secteur de l'agroalimentaire à l'Université d'Abomey-Calavi.",
+      description: "Plateforme intégrant une boîte à outils numérique pour les entrepreneurs inovant de l'Université d'Abomey-Calavi.",
       tags: ["Moodle", "Génially", ],
       highlight: false
     }
