@@ -15,9 +15,9 @@ const Projects = () => {
       highlight: false
     },
     {
-      title: "E-commerce API",
-      description: "Architecture microservices pour une plateforme de vente scalable.",
-      tags: ["Python", "Django", "Vue.js"],
+      title: "SANpreneur",
+      description: "Plateforme intégrant une boîte à outils pour les entrepreneurs du secteur de l'agroalimentaire à l'Université d'Abomey-Calavi.",
+      tags: ["Moodle", "Génially", ],
       highlight: false
     }
   ];
@@ -27,7 +27,7 @@ const Projects = () => {
       <div className="container mx-auto px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen text-4xl" size={32} />
-             ./my_projets
+             ./projets
          
         </h2>
 

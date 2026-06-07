@@ -3,8 +3,8 @@ import { Terminal } from 'lucide-react';
 const Skills = () => {
   const stack = {
     "Langages": ["C", "PHP", "HTML5", "CSS3", "SQL", "Javascript"],
-    "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Node js","Express js"],
-    "Architecture": ["Analyses techniques",  "Modélisation de projets informatiques"],
+    "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Node js","Express js", "Moodle/Genially"],
+    "Architecture": ["Analyses techniques",  "Modélisation de projets informatiques", "Architecture microservices"],
     "Database": ["MySQL", "PostgreSQL", "SQLite"],
     "Others" : ["Serigraphie générale","Graphisme", "Cacheterie"]
   };
