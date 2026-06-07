@@ -8,13 +8,13 @@ const Navbar = () => {
 
   const colors = [
     { name: 'Matrix Green', value: '#00ff41' },
-    { name: 'Cyber Blue', value: '#00d4ff' },
+    // { name: 'Cyber Blue', value: '#00d4ff' },
     { name: 'Candy Orchid', value: '#f14eff' },
     { name: 'Soft Cyan', value: '#00fff2' },
-    { name: 'Electric Indigo', value: '#6200ff' },
+    // { name: 'Electric Indigo', value: '#6200ff' },
     { name: 'Gold', value: '#ffcc00' },
     { name: 'Mint', value: '#00ff95' },
-    { name: 'Sky Blue', value: '#03a9f4' },
+    // { name: 'Sky Blue', value: '#03a9f4' },
 
   
   ];
@@ -117,14 +117,14 @@ const Navbar = () => {
             <h3 className="text-white font-black text-xl text-center leading-tight  tracking-tighter">
               Frejus N. <br/> HOUNGBENOU
             </h3>
-            <div className="flex gap-4 mt-4 mb-6">
+            {/* <div className="flex gap-4 mt-4 mb-6">
                <MessageCircle size={20} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
                <Linkedin size={20} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
                <Mail size={20} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
-            </div>
+            </div> */}
           </div>
 
-          <hr className="border-gray-900 mb-6" />
+          <hr className="border-gray-900 mb-3" />
 
           {/* SECTION PRÉFÉRENCES MOBILE */}
           <div className="mb-8 px-2">
