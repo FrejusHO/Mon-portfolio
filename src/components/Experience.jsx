@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Développeur web backend ",
       company: "SPTIC-UAC",
       location: "Abomey-Calavi, Bénin",
-      period: "Avril 2023 à Présent",
+      period: "Avril 2023 à fevrier 2026",
       points: [
         "Participation à la mise en place de l'Espace Numérique de Travail (ENT) de l'UAC",
         "Développement effectif du module 'Espace Étudiant' de l'ENT",
