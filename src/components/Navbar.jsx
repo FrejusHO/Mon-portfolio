@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: 'Soft Cyan', value: '#00fff2' },
     // { name: 'Electric Indigo', value: '#6200ff' },
     { name: 'Gold', value: '#ffcc00' },
-    { name: 'Mint', value: '#00ff95' },
+    // { name: 'Mint', value: '#00ff95' },
     // { name: 'Sky Blue', value: '#03a9f4' },
 
   
@@ -147,7 +147,7 @@ const Navbar = () => {
             </p> */}
           </div>
 
-          <hr className="border-gray-900 mb-6" />
+          <hr className="border-gray-900 mb-3" />
 
           {/* Liens Mobile */}
           <div className="flex flex-col gap-1">
