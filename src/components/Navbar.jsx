@@ -106,16 +106,16 @@ const Navbar = () => {
 
       {/* Sidebar Mobile */}
       <div className={`fixed top-0 right-0 h-screen w-[85%] max-w-[320px] bg-[#050505] border-l border-gray-800 z-[55] transform transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden overflow-y-auto`}>
-        <div className="flex flex-col h-full p-6 pt-20">
+        <div className="flex flex-col h-full p-6 pt-">
           {/* Section Profil */}
-          <div className="flex flex-col items-center mb-6">
+          <div className="flex flex-col items-center mb-3 gap-2">
             <div className="relative">
               <div className="w-24 h-24 rounded-full border-4 border-neonGreen overflow-hidden mb-4 transition-colors duration-300 shadow-[0_0_15px_var(--neon-green)] opacity-80">
                 <img src="/me.jpeg" alt="Profil" className="w-full h-full object-cover" />
               </div>
             </div>
             <h3 className="text-white font-black text-xl text-center leading-tight  tracking-tighter">
-              Frejus N. <br/> HOUNGBENOU
+              Frejus N. HOUNGBENOU
             </h3>
             {/* <div className="flex gap-4 mt-4 mb-6">
                <MessageCircle size={20} className="text-gray-400 hover:text-neonGreen cursor-pointer" />
@@ -132,7 +132,7 @@ const Navbar = () => {
               <Settings size={12} className="text-neonGreen animate-spin-slow" /> 
               Choisir un thème
             </div>
-            <div className="grid grid-cols-4 gap-2 mb-4">
+            <div className="grid grid-cols-4 gap-2 ">
               {colors.map((color) => (
                 <button
                   key={color.name}
