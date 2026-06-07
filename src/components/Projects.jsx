@@ -9,9 +9,9 @@ const Projects = () => {
       highlight: true
     },
     {
-      title: "PsyClic App",
-      description: "Application de Gestion des patients dédiés aux psychologues",
-      tags: ["Postgres", "React js", "Laravel"],
+      title: "ZAHExplorer",
+      description: "Application desktop de Gestion des patients dédiée aux psychologues",
+      tags: ["React js", "Express js", "SQLite"],
       highlight: false
     },
     {

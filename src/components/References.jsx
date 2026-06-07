@@ -17,7 +17,7 @@ const References = () => {
     },
     {
       name: "ZOHOU Pierre Jérôme",
-      role: "Informaticien IFRI-UAC", 
+      role: "DSI Mairie Bopa/Bénin", 
       phone: "+229 01 97 38 49 92", 
       email: "pzohou@gmail.com" 
     }

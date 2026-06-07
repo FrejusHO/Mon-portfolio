@@ -2,11 +2,11 @@ import React from 'react';
 import { Terminal } from 'lucide-react';
 const Skills = () => {
   const stack = {
-    "Langages": ["C", "PHP", "Python", "HTML5", "CSS3", "SQL", "Javascript"],
-    "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Express js"],
+    "Langages": ["C", "PHP", "HTML5", "CSS3", "SQL", "Javascript"],
+    "Frameworks": ["Laravel", "React js", "Tailwind CSS", "Bootstrap", "Node js","Express js"],
     "Architecture": ["Analyses techniques",  "Modélisation de projets informatiques"],
-    "Database": ["MySQL", "PostgreSQL"],
-    "Others" : ["Serigraphie générale", "Cacheterie"]
+    "Database": ["MySQL", "PostgreSQL", "SQLite"],
+    "Others" : ["Serigraphie générale","Graphisme", "Cacheterie"]
   };
 
   return (

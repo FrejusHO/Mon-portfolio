@@ -9,12 +9,12 @@ const Education = () => {
       school: "Institut de Formation et de Recherche en Informatique (IFRI)",
       location: "Université d'Abomey-Calavi, Benin",
       details: [
-        "Focus sur le developpement web"
+        "Developpement logiciel"
       ]
     },
     {
       degree: "Programme d'étude de la Fondation MasterCard",
-      period: "Oct 2020 - Oct 2023",
+      period: "Oct 2020 - Nov 2023",
       school: "Université d'Abomey-Calavi",
       location: "Benin",
       details: [
