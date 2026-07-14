@@ -7,17 +7,17 @@ const Projects = () => {
       title: "ZAHExplorer",
       description: "Application desktop de Gestion des patients dédiée aux psychologues",
       tags: ["React js", "Express js", "SQLite"],
-      highlight: false
+      highlight: true
     },
     {
       title: "SANpreneur",
-      description: "Plateforme intégrant une boîte à outils numérique pour les entrepreneurs innovants de l'Université d'Abomey-Calavi.",
+      description: "Plateforme intégrant une boîte à outils numérique pour les entrepreneurs innovants en agro alimentaire à l'Université d'Abomey-Calavi.",
       tags: ["Moodle", "Génially", ],
       highlight: false
     },
        {
       title: "LocaGest",
-      description: "Application web & mobile multi-tenant de gestion locative pour les agences immobilieres, propriétaires et les locataires basée au Bénin. (en cours) ",
+      description: "Application web & mobile multi-tenant de gestion locative conçue pour les agences immobilières, les propriétaires et les locataires basée au Bénin. (en cours) ",
       tags: ["React JS", "Flask","Postgres" ],
       highlight: false
     },
@@ -25,7 +25,13 @@ const Projects = () => {
       title: "DataFlow CRM",
       description: "Gestion client optimisée avec analyse de données en temps réel.",
       tags: ["Postgres", "Node.js", "React js"],
-      highlight: true
+      highlight: false
+    },
+    {
+      title: "...",
+      description: "...",
+      tags: ["...", "...", "..."],
+      highlight: false
     }
   ];
 
@@ -46,7 +52,7 @@ const Projects = () => {
                 ${project.highlight ? 'border-neonGreen shadow-[0_0_20px_rgba(0,255,65,0.15)]' : 'border-gray-800 hover:border-neonGreen'}`}
             >
               <h3 className="text-2xl font-bold text-white mb-4">{project.title}</h3>
-              <p className="text-gray-400 mb-8 text-sm leading-relaxed">
+              <p className="text-gray-400 mb-8 text-sm leading-relaxed text-justify">
                 {project.description}
               </p>
               

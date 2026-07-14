@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 const Showcase = () => {
   const screenshots = [
-    { title: "Développement Web", img: "/web-dev.jpg", tech: "React • Next.js" },
-    { title: "Développement Mobile", img: "/mobile-dev.jpg", tech: "React Native • Expo" },
+    { title: "Développement Web & mobile", img: "/web-dev.jpg", tech: "React • Next.js" },
+    { title: "Maintenance informatique", img: "/maintenance.jpeg", tech: "Outillage Maintenance" },
     { title: "Trading des cryptos", img: "/trading-app.jpg", tech: "Python • API Binance" }
   ];
 
