@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section id="stack" className="py-20 px-6 md:px-20 bg-darkBg font-mono">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+        <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen" size={32} />
             ./my_stacks
         </h2>
