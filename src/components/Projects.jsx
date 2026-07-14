@@ -19,6 +19,12 @@ const Projects = () => {
       description: "Plateforme intégrant une boîte à outils numérique pour les entrepreneurs innovants de l'Université d'Abomey-Calavi.",
       tags: ["Moodle", "Génially", ],
       highlight: false
+    },
+       {
+      title: "LocaGest",
+      description: "Application web & mobile multi-tenant de gestion locative pour les agences immobilieres, propriétaires et les locataires basée au Bénin. (en cours) ",
+      tags: ["React JS", "Flask","Postgres" ],
+      highlight: false
     }
   ];
 
