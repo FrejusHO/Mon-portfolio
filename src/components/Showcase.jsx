@@ -16,7 +16,7 @@ const Showcase = () => {
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-bold text-white text-center mb-16 flex items-center justify-center gap-4"
+          className="text-3xl md:text-4xl font-bold text-white text-center mb-16 flex items-center justify-center gap-4"
         >
           <Terminal className="text-neonGreen" size={40} />
          ./my_domains

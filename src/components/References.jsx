@@ -27,7 +27,7 @@ const References = () => {
   return (
     <section id='references' className="py-20 px-6 md:px-20 bg-slate-900 font-mono">
       <div className="max-w-6xl mx-auto"> {/* Augmenté à 6xl pour plus d'espace horizontal */}
-       <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
+       <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12 flex items-center gap-4 ">
             <Terminal className="text-neonGreen text-4xl" size={32} />
             Références
         </h2>
