@@ -2,12 +2,7 @@ import React from 'react';
 import { Terminal } from 'lucide-react';
 const Projects = () => {
   const projects = [
-    {
-      title: "DataFlow CRM",
-      description: "Gestion client optimisée avec analyse de données en temps réel.",
-      tags: ["Postgres", "Node.js", "React js"],
-      highlight: true
-    },
+    
     {
       title: "ZAHExplorer",
       description: "Application desktop de Gestion des patients dédiée aux psychologues",
@@ -25,6 +20,12 @@ const Projects = () => {
       description: "Application web & mobile multi-tenant de gestion locative pour les agences immobilieres, propriétaires et les locataires basée au Bénin. (en cours) ",
       tags: ["React JS", "Flask","Postgres" ],
       highlight: false
+    },
+    {
+      title: "DataFlow CRM",
+      description: "Gestion client optimisée avec analyse de données en temps réel.",
+      tags: ["Postgres", "Node.js", "React js"],
+      highlight: true
     }
   ];
 
